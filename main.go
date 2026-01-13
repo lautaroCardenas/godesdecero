@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt" //paquete para manejar las gorutinas
-
-	"github.com/lautarocardenas/godesdecero/ejecicios" //importo el paquete ejecicios
+	"github.com/lautarocardenas/godesdecero/teclado" //importo el paquete ejecicios
 )
 
 func main() {
@@ -24,10 +22,12 @@ func main() {
 		fmt.Println("Estamos en Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
-	numero, texto := ejecicios.Ejecicio01("s")
+	numero, texto := ejecicios.Ejecicio01("10")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	teclado.IngresoNumeros()
 
 }
