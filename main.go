@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/lautarocardenas/godesdecero/teclado" //importo el paquete ejecicios
+	"github.com/lautarocardenas/godesdecero/ejecicios"
 )
 
 func main() {
@@ -26,8 +26,12 @@ func main() {
 
 	numero, texto := ejecicios.Ejecicio01("10")
 	fmt.Println(numero)
-	fmt.Println(texto)*/
+	fmt.Println(texto)
 
 	teclado.IngresoNumeros()
+
+	iteraciones.Iterar()*/
+
+	ejecicios.TablaMultiplicar()
 
 }
