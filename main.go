@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/lautarocardenas/godesdecero/ejecicios"
+	"github.com/lautarocardenas/godesdecero/files"
 )
 
 func main() {
@@ -32,6 +32,9 @@ func main() {
 
 	iteraciones.Iterar()*/
 
-	ejecicios.TablaMultiplicar()
+	//fmt.Print(ejecicios.TablaMultiplicar())
 
+	//files.GrabaTabla()
+	//files.Sumatabla()
+	files.LeoArchivo()
 }
