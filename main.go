@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/lautarocardenas/godesdecero/files"
+	"github.com/lautarocardenas/godesdecero/arreglos_slices"
 )
 
 func main() {
@@ -36,5 +36,11 @@ func main() {
 
 	//files.GrabaTabla()
 	//files.Sumatabla()
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	//funciones.Calculos()
+	//funciones.LLamarClosure()
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglos()
+	arreglos_slices.Capacidad()
 }
